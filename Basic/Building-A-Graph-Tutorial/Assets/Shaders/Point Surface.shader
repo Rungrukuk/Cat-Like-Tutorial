@@ -1,8 +1,8 @@
 Shader "Graph/Point Surface"
 {
-        Properties{
+    Properties{
         _Smoothness("Smoothness",Range(0,1)) = 0.5
-        }    
+    }    
     
     SubShader {
         CGPROGRAM

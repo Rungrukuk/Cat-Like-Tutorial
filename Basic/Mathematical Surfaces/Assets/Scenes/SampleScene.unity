@@ -836,7 +836,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25d24b20b35d7549842d47a883d0edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  displayMode: 1
+  displayMode: 0
   display: {fileID: 1109819760}
   sampleDuration: 0.1
 --- !u!222 &1109819762
@@ -953,11 +953,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e47c116fb98874992b80729c997d0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resolution: 200
+  resolution: 150
   function: 0
   transitionMode: 0
   funcDuration: 1
   transitionDuration: 0
+  computeShader: {fileID: 7200000, guid: cf2c49df238ffb245b0dc3e59fd582e5, type: 3}
+  material: {fileID: 2100000, guid: dd8fb0f78c010dd458003b242722c7a0, type: 2}
+  mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1773762411
 Transform:
   m_ObjectHideFlags: 0
